@@ -24,6 +24,7 @@ const auth = getAuth();
 
 function HomeTabs() {
   return (
+    // can ignor it, not for login/signup methods
     <Tab.Navigator>
       <Tab.Screen
         name="Home"
